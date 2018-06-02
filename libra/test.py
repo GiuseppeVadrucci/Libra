@@ -1,6 +1,8 @@
+#This is an example of usage
+
 import balance
 
-redirects=['giuseppevadrucci.eu','lexanalyzer.eu']
+redirects=['','']
 
 libra = balance.Balance()
 libra.add(redirects)
