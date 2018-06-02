@@ -1,4 +1,4 @@
-#Simplest way to define all the requests to balance
+#Simplest way to define all the requests to redirect
 #it should be optimized
 
 import string
