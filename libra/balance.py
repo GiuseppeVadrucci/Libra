@@ -16,7 +16,7 @@ class Balance(libra.Libra):
           self._random = False
           self._proxy = False
                           
-     
+     #add te list of redirects to wich balance the requests
      def add(self, redirects = []):
           for el in redirects:
            try:
@@ -38,6 +38,11 @@ class Balance(libra.Libra):
            self.server.close()
            sys.exit(0)
 
+ 
+ 
+     	            
+          
+#functionality
      def setProxy(self):
           self._proxy = True
      	  
@@ -48,10 +53,14 @@ class Balance(libra.Libra):
 #       	  else:
              #raiseerror
      	
+#Here the types of redirections ( e.g. round robin, based on weight )
 
      def setWeight(self,weight):
-       	  self._weight = weight
+       	  self._weight = weight #after 5 requests change the server
  
+#def round robin(self):
+
+#def statefull(self): 
 
   
   
