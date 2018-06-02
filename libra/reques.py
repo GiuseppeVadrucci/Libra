@@ -1,3 +1,6 @@
+#Simplest way to define all the requests to balance
+#it should be optimized
+
 import string
 
 
