@@ -1,4 +1,4 @@
-#Main file, defininf Libra, socket select server to accept requests 
+#Main file, defining Libra, socket select server to accept requests 
 #it should be optimized
 
 import select, queue, math
@@ -98,7 +98,7 @@ class Libra:
                  s.close()
                  del self.message_queues[s]
              else:
-              print(' No servers aviable, change redirects list.')
+              print(' No servers available, change the redirects list.')
 
       for s in exceptional:
         self.inputs.remove(s)
