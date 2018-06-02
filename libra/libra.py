@@ -1,5 +1,5 @@
 #Main file, defining Libra, socket select server to accept requests 
-#it should be optimized
+#It must be optimized, this is naive 
 
 import select, queue, math
 import socket, sys, random, client
