@@ -1,3 +1,6 @@
+#Class balance define all the features of the balancer
+#the goal would be to add as much as possible
+
 import sys, os, socket, time
 import libra
 
