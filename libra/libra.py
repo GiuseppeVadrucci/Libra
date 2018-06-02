@@ -1,3 +1,6 @@
+#Main file, defininf Libra, socket select server to accept requests 
+#it should be optimized
+
 import select, queue, math
 import socket, sys, random, client
 import threading, reques
