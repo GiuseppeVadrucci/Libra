@@ -1,5 +1,5 @@
 # Echo client program
-
+# This is a simple test client
 import socket
 import sys
 PORT = 80             # The same port as used by the server
