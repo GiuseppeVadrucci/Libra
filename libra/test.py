@@ -2,7 +2,7 @@
 
 import balance
 
-redirects=['','']
+redirects=['site1.example.com','site2.example.it']
 
 libra = balance.Balance()
 libra.add(redirects)
